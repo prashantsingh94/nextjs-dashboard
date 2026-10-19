@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 
 export default function SideNav() {
   const pathname = usePathname();
-  console.log("pathname:", pathname);
   return (
     <nav className="bg-gray-800 text-white w-full h-full p-2">
       <ul>
